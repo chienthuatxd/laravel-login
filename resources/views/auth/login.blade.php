@@ -64,11 +64,20 @@
                                 @endif
                             </div>
                         </div>
-                        <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <a href="{{ url('auth/google') }}" class="btn btn-lg btn-primary btn-block">
-                                    <strong>Login With Google</strong>
-                                </a>
+                        <div class="form-group row">
+                            <div class="col-md-6 text-md-right">
+                                <a href="{{ url('auth/google') }}" class="btn-si btn-si-a btn-google">Sign in with Google</a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="{{ url('auth/facebook') }}" class="btn-si btn-si-a btn-facebook">Sign in with Facebook</a>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-6 text-md-right">
+                                <a href="{{ url('auth/github') }}" class="btn-si btn-si-a btn-github">Sign in with Github</a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="{{ url('auth/twitter') }}" class="btn-si btn-si-a btn-twitter">Sign in with Twitter</a>
                             </div>
                         </div>
                     </form>
